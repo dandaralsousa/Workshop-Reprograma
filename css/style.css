@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    /*font-family: 'Raleway', sans-serif;*/
+}
+
+span {
+    font-weight: 700;
+    /*font-weight: 700;*/
+    color:  #7E459B;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.botao > a,
+.midias-sociais__container-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-family: 'Blinker', sans-serif;
+    font-weight: 700;
+    /*font-family: 'Raleway', sans-serif;*/
+   /* font-weight: bold;*/
+}
+
+.botao {
+    margin-top: 12px;
+    background-color: rgb(235, 88, 20);
+    border: #ffffff solid 1px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+}
+
+.cabecalho {
+    text-align:left;
+    background-image: url('../imagem/banner-bg-2.png');
+    background-size: auto;
+    width: 100%;
+    height: 650px; /*antes era 600 px mas cortava um pouco a imagem*/
+    color: rgb(44, 11, 97);
+    display: flex;
+    /*justify-content:unset; não fez diferença visual(?)*/
+    align-items:center;
+}
+
+.cabecalho__container{
+    margin-left:9rem; /*colocar os itens alinhados a esqueda*/
+}
+
+
+.cabecalho__titulo{
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+.cabecalho__texto {
+    font-size: 1.6rem;
+}
+
+.destaque {
+    font-size:1.2rem;
+    margin-bottom: 15px;
+}
+
+.sobre-mim,
+.midias-sociais {
+    height: 450px;
+    display: flex;
+    align-items: center;
+
+}
+    
+ .display-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.sobre-mim__titulo {
+    font-size: 3rem;
+    color:rgba(44, 11, 97, 0.473);
+    margin-bottom: 55px;
+}
+
+
+.sobre-mim__descricao-texto-destaque{
+    font-size: 1.1rem;
+    width: 80%;
+    line-height: 1.7rem;
+    padding: 8px;
+    
+} 
+
+.sobre-mim__descricao-texto{
+    width: 80%;
+    line-height: 1.5rem;
+    padding: 8px;
+} 
+.sobre-mim__habilidades {
+     width: 80%;
+    line-height: 1.8rem;
+}
+
+.midias-sociais__container {
+    text-align: center;
+    width: 20%;
+    background-color: #561691dc;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.midias-sociais__container-img {
+    margin-bottom: 20px;
+}
+
+.midias-sociais__container-link,
+.midias-sociais__container-paragrafo {
+    color: white;
+}
+
+.midias-sociais__container-paragrafo {
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+
+.rodape__paragrafo {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
